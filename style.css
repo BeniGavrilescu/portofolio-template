@@ -12,6 +12,7 @@ body {
         "wdth" 100,
         "GRAD" 0,
         "ROND" 0;
+    background-color: #F6F0D7;
 }
 
 
@@ -37,6 +38,9 @@ body {
     max-width: 500px;
     justify-content: center;
     margin: auto;
+    box-shadow: 11px 12px 28px -9px rgba(0,0,0,0.75);
+-webkit-box-shadow: 11px 12px 28px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: 11px 12px 28px -9px rgba(0,0,0,0.75);
 }
 
 .info-heading {
@@ -80,6 +84,12 @@ body {
 .svg-logos>button {
     margin-left: 1rem;
     margin-right: 1rem;
+    background: none;
+    border: none;
+}
+
+.svg-logos > button:hover {
+    cursor: pointer;
 }
 
 .work-presentation {
@@ -95,6 +105,11 @@ body {
 
 .works {
     border: 2px solid black;
+    box-shadow: 11px 12px 15px -9px rgba(0,0,0,0.75);
+-webkit-box-shadow: 11px 12px 15px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: 11px 12px 15px -9px rgba(0,0,0,0.75);
+    border-radius: 1rem;
+    background-color: #9CAB84;
 }
 
 .works>.image {
@@ -103,6 +118,8 @@ body {
     align-items: center;
     border-bottom: 2px solid black;
     height: 15rem;
+    background-color: #C5D89D;
+    border-radius: 1rem;
 }
 
 .works>h3 {
@@ -126,6 +143,8 @@ body {
     padding-bottom: 4rem;
     padding-left: 4rem;
     padding-right: 4rem;
+    border-radius: 1rem;
+    background-color: #89986D;
 }
 
 .contact>.image {
@@ -135,9 +154,12 @@ body {
 }
 
 .contact>.data>.image-main {
-    max-width: 1000px;
+    max-width: 1200px;
     width: 90%;
     height: auto;
+    box-shadow: 11px 12px 15px -9px rgba(0,0,0,0.75);
+-webkit-box-shadow: 11px 12px 15px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: 11px 12px 15px -9px rgba(0,0,0,0.75);
 }
 
 .contact>.data {
@@ -150,6 +172,7 @@ body {
     .heading {
         flex-direction: row;
         align-items: center;
+        
     }
 
     .text-heading {
@@ -160,7 +183,11 @@ body {
         border: 2px solid black;
         padding: 1 rem;
         margin: 0;
-        width: 50%;
+        width: 60%;
+        box-shadow: 11px 12px 28px -9px rgba(0,0,0,0.75);
+-webkit-box-shadow: 11px 12px 28px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: 11px 12px 28px -9px rgba(0,0,0,0.75);
+        background-color: white;
     }
 
     .image-main {
